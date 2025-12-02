@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Billi Collects TCG</title>
+  <link rel="stylesheet" href="styles.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo">
+      <span class="chrome-text">Billi Collects TCG</span>
+      <p class="tagline">Bold pulls. Shiny hits. Collector’s showcase.</p>
+    </div>
+    <nav class="nav">
+      <a href="#updates">Updates</a>
+      <a href="#for-sale">Cards for Sale</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1 class="chrome-text">Welcome to the Billi Collects Vault</h1>
+        <p>
+          A personal hub for my TCG hobby: latest pulls, grail hunts,
+          and cards currently listed for sale.
+        </p>
+        <div class="hero-buttons">
+          <a href="#for-sale" class="btn-primary">View Cards for Sale</a>
+          <a href="#updates" class="btn-ghost">Latest Hobby Updates</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Updates Section -->
+    <section id="updates" class="section">
+      <h2 class="section-title chrome-text">Latest TCG Updates</h2>
+      <div class="updates-grid">
+        <article class="update-card">
+          <h3>Fukuoka Pokémon Center Promo Added</h3>
+          <p>
+            Recently picked up the Fukuoka Pokémon Center opening promo box.
+            Keeping this one in the personal collection for now.
+          </p>
+          <p class="update-meta">Posted: 2025-11-13</p>
+        </article>
+
+        <article class="update-card">
+          <h3>New PSA Submission Planned</h3>
+          <p>
+            Sorting through hits for my next PSA batch: alt arts, gold cards,
+            and some Japanese promos I’m hyped about.
+          </p>
+          <p class="update-meta">Posted: 2025-11-10</p>
+        </article>
+
+        <article class="update-card">
+          <h3>Inventory Refresh on TCGplayer</h3>
+          <p>
+            Uploaded a fresh batch of competitive staples and a few chase cards.
+            Check out the for sale section below.
+          </p>
+          <p class="update-meta">Posted: 2025-11-08</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Cards for Sale Section -->
+    <section id="for-sale" class="section">
+      <h2 class="section-title chrome-text">Cards for Sale</h2>
+      <p class="section-subtitle">
+        These are currently listed on my TCGplayer/eBay. Click through to purchase.
+      </p>
+
+      <div class="card-grid">
+        <!-- Card 1 -->
+        <article class="tcg-card">
+          <div class="tcg-card-inner">
+            <h3 class="tcg-name">Charizard ex (Full Art)</h3>
+            <p class="tcg-set">Set: Obsidian Flames</p>
+            <p class="tcg-meta">Condition: Near Mint • Language: English</p>
+            <p class="tcg-price">~$45 • Listed on TCGplayer</p>
+            <a href="https://www.tcgplayer.com" 
+               target="_blank" rel="noopener" 
+               class="btn-link">
+              View Listing
+            </a>
+          </div>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="tcg-card">
+          <div class="tcg-card-inner">
+            <h3 class="tcg-name">Pikachu (Illustration Rare)</h3>
+            <p class="tcg-set">Set: Paldean Fates</p>
+            <p class="tcg-meta">Condition: Near Mint • Language: Japanese</p>
+            <p class="tcg-price">~$28 • Listed on eBay</p>
+            <a href="https://www.ebay.com" 
+               target="_blank" rel="noopener" 
+               class="btn-link">
+              View Listing
+            </a>
+          </div>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="tcg-card">
+          <div class="tcg-card-inner">
+            <h3 class="tcg-name">Mewtwo V (Alt Art)</h3>
+            <p class="tcg-set">Set: Pokémon GO</p>
+            <p class="tcg-meta">Condition: Near Mint • Language: English</p>
+            <p class="tcg-price">~$60 • Listed on TCGplayer</p>
+            <a href="https://www.tcgplayer.com" 
+               target="_blank" rel="noopener" 
+               class="btn-link">
+              View Listing
+            </a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+      <h2 class="section-title chrome-text">About Billi Collects</h2>
+      <div class="about-layout">
+        <p>
+          Billi Collects is my personal TCG hub. I buy, sell, trade, and
+          collect—especially Pokémon cards. This site is where I post updates
+          from my socials, show off some favorite cards, and share what’s
+          currently up for sale.
+        </p>
+        <p>
+          You can find me on:
+          <br />
+          Instagram: <strong>@billi.collects</strong><br />
+          eBay / TCGplayer: <strong>Billi Collects TCG</strong>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Billi Collects TCG • Built by Arnold</p>
+  </footer>
+
+  <script>
+    // Set current year in footer automatically
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
