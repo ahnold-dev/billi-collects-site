@@ -253,6 +253,23 @@ body {
   box-shadow: 0 18px 35px rgba(0, 0, 0, 0.9);
 }
 
+.tcg-reason {
+  margin: 0.3rem 0 0;
+  font-size: 0.85rem;
+  color: #e5e5ff;
+  line-height: 1.4;
+}
+
+/* News and Articles */
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+
+
 /* About section */
 .about-layout {
   max-width: 720px;
