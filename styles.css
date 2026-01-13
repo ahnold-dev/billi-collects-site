@@ -199,6 +199,20 @@ body {
 }
 
 /* Cards grid (for sale) */
+
+.card-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 0.9rem;
+  margin-bottom: 0.75rem;
+  object-fit: cover;
+}
+
+.tcg-card-inner {
+  overflow: hidden;
+}
+
 .card-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
